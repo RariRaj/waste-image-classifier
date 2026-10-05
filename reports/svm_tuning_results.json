@@ -1,0 +1,185 @@
+{
+  "selection_metric": "validation_macro_f1",
+  "class_names": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "experiments": [
+    {
+      "C": 0.1,
+      "gamma": "scale",
+      "training_accuracy": 0.6111111111111112,
+      "validation_accuracy": 0.48947368421052634,
+      "validation_macro_f1": 0.48922876603821114
+    },
+    {
+      "C": 0.1,
+      "gamma": 0.0001,
+      "training_accuracy": 0.5,
+      "validation_accuracy": 0.4473684210526316,
+      "validation_macro_f1": 0.38636979321097464
+    },
+    {
+      "C": 0.1,
+      "gamma": 1e-05,
+      "training_accuracy": 0.23582766439909297,
+      "validation_accuracy": 0.23421052631578948,
+      "validation_macro_f1": 0.06325515280739162
+    },
+    {
+      "C": 1.0,
+      "gamma": "scale",
+      "training_accuracy": 0.95578231292517,
+      "validation_accuracy": 0.6578947368421053,
+      "validation_macro_f1": 0.6653044447135222
+    },
+    {
+      "C": 1.0,
+      "gamma": 0.0001,
+      "training_accuracy": 0.7454648526077098,
+      "validation_accuracy": 0.6210526315789474,
+      "validation_macro_f1": 0.6190085389679589
+    },
+    {
+      "C": 1.0,
+      "gamma": 1e-05,
+      "training_accuracy": 0.5396825396825397,
+      "validation_accuracy": 0.5210526315789473,
+      "validation_macro_f1": 0.49811185634937166
+    },
+    {
+      "C": 10.0,
+      "gamma": "scale",
+      "training_accuracy": 1.0,
+      "validation_accuracy": 0.7026315789473684,
+      "validation_macro_f1": 0.7085196973206712
+    },
+    {
+      "C": 10.0,
+      "gamma": 0.0001,
+      "training_accuracy": 0.9790249433106576,
+      "validation_accuracy": 0.6473684210526316,
+      "validation_macro_f1": 0.6556032316281067
+    },
+    {
+      "C": 10.0,
+      "gamma": 1e-05,
+      "training_accuracy": 0.7386621315192744,
+      "validation_accuracy": 0.6131578947368421,
+      "validation_macro_f1": 0.6113651834982327
+    }
+  ],
+  "best_result": {
+    "C": 10.0,
+    "gamma": "scale",
+    "training_accuracy": 1.0,
+    "validation_accuracy": 0.7026315789473684,
+    "validation_macro_f1": 0.7085196973206712
+  },
+  "macro_f1_change_vs_baseline": 0.04321525260714898,
+  "validation_classification_report": {
+    "cardboard": {
+      "precision": 0.7076923076923077,
+      "recall": 0.7540983606557377,
+      "f1-score": 0.7301587301587301,
+      "support": 61.0
+    },
+    "glass": {
+      "precision": 0.6428571428571429,
+      "recall": 0.72,
+      "f1-score": 0.6792452830188679,
+      "support": 75.0
+    },
+    "metal": {
+      "precision": 0.7142857142857143,
+      "recall": 0.5645161290322581,
+      "f1-score": 0.6306306306306306,
+      "support": 62.0
+    },
+    "paper": {
+      "precision": 0.7628865979381443,
+      "recall": 0.8314606741573034,
+      "f1-score": 0.7956989247311828,
+      "support": 89.0
+    },
+    "plastic": {
+      "precision": 0.6197183098591549,
+      "recall": 0.6111111111111112,
+      "f1-score": 0.6153846153846154,
+      "support": 72.0
+    },
+    "trash": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 21.0
+    },
+    "accuracy": 0.7026315789473684,
+    "macro avg": {
+      "precision": 0.7412400121054107,
+      "recall": 0.6913088236038462,
+      "f1-score": 0.7085196973206712,
+      "support": 380.0
+    },
+    "weighted avg": {
+      "precision": 0.708383832356802,
+      "recall": 0.7026315789473684,
+      "f1-score": 0.7013344065104324,
+      "support": 380.0
+    }
+  },
+  "validation_confusion_matrix": [
+    [
+      46,
+      3,
+      1,
+      7,
+      4,
+      0
+    ],
+    [
+      2,
+      54,
+      4,
+      6,
+      9,
+      0
+    ],
+    [
+      3,
+      10,
+      35,
+      5,
+      9,
+      0
+    ],
+    [
+      5,
+      4,
+      3,
+      74,
+      3,
+      0
+    ],
+    [
+      9,
+      11,
+      3,
+      5,
+      44,
+      0
+    ],
+    [
+      0,
+      2,
+      3,
+      0,
+      2,
+      14
+    ]
+  ]
+}
