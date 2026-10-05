@@ -1,0 +1,124 @@
+{
+  "model": "HOG + RGB histograms + RBF SVM",
+  "training_images": 1764,
+  "validation_images": 380,
+  "feature_count": 1860,
+  "class_names": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "parameters": {
+    "kernel": "rbf",
+    "C": 1.0,
+    "gamma": "scale",
+    "class_weight": "balanced"
+  },
+  "training_accuracy": 0.95578231292517,
+  "validation_accuracy": 0.6578947368421053,
+  "validation_macro_f1": 0.6653044447135222,
+  "validation_classification_report": {
+    "cardboard": {
+      "precision": 0.7142857142857143,
+      "recall": 0.7377049180327869,
+      "f1-score": 0.7258064516129032,
+      "support": 61.0
+    },
+    "glass": {
+      "precision": 0.5822784810126582,
+      "recall": 0.6133333333333333,
+      "f1-score": 0.5974025974025974,
+      "support": 75.0
+    },
+    "metal": {
+      "precision": 0.6333333333333333,
+      "recall": 0.6129032258064516,
+      "f1-score": 0.6229508196721312,
+      "support": 62.0
+    },
+    "paper": {
+      "precision": 0.696078431372549,
+      "recall": 0.797752808988764,
+      "f1-score": 0.743455497382199,
+      "support": 89.0
+    },
+    "plastic": {
+      "precision": 0.6,
+      "recall": 0.5,
+      "f1-score": 0.5454545454545454,
+      "support": 72.0
+    },
+    "trash": {
+      "precision": 0.875,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7567567567567568,
+      "support": 21.0
+    },
+    "accuracy": 0.6578947368421053,
+    "macro avg": {
+      "precision": 0.6834959933340427,
+      "recall": 0.6547268254713338,
+      "f1-score": 0.6653044447135222,
+      "support": 380.0
+    },
+    "weighted avg": {
+      "precision": 0.6579867413321091,
+      "recall": 0.6578947368421053,
+      "f1-score": 0.6553539410654972,
+      "support": 380.0
+    }
+  },
+  "validation_confusion_matrix": [
+    [
+      45,
+      4,
+      2,
+      8,
+      2,
+      0
+    ],
+    [
+      1,
+      46,
+      9,
+      8,
+      10,
+      1
+    ],
+    [
+      2,
+      7,
+      38,
+      8,
+      7,
+      0
+    ],
+    [
+      6,
+      5,
+      3,
+      71,
+      4,
+      0
+    ],
+    [
+      8,
+      15,
+      5,
+      7,
+      36,
+      1
+    ],
+    [
+      1,
+      2,
+      3,
+      0,
+      1,
+      14
+    ]
+  ]
+}
