@@ -1,0 +1,30 @@
+{
+  "class_counts": {
+    "cardboard": 403,
+    "glass": 501,
+    "metal": 410,
+    "paper": 594,
+    "plastic": 482,
+    "trash": 137
+  },
+  "total_images": 2527,
+  "valid_images": 2527,
+  "image_sizes": {
+    "512x384": 2527
+  },
+  "invalid_images": [],
+  "exact_duplicate_groups": [
+    [
+      "data/raw/glass/glass115.jpg",
+      "data/raw/metal/metal91.jpg"
+    ],
+    [
+      "data/raw/glass/glass176.jpg",
+      "data/raw/plastic/plastic152.jpg"
+    ],
+    [
+      "data/raw/glass/glass389.jpg",
+      "data/raw/plastic/plastic332.jpg"
+    ]
+  ]
+}

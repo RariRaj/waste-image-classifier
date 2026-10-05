@@ -1,0 +1,11 @@
+{
+  "reason": "Exact duplicate images with conflicting class labels; excluded pending reliable label verification.",
+  "paths": [
+    "data/raw/glass/glass115.jpg",
+    "data/raw/metal/metal91.jpg",
+    "data/raw/glass/glass176.jpg",
+    "data/raw/plastic/plastic152.jpg",
+    "data/raw/glass/glass389.jpg",
+    "data/raw/plastic/plastic332.jpg"
+  ]
+}

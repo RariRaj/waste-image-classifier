@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "class_names": [
+    "cardboard",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "trash"
+  ],
+  "excluded_images": 6,
+  "usable_images": 2521,
+  "multi_image_groups": 22,
+  "splits": {
+    "train": {
+      "total": 1764,
+      "class_counts": {
+        "cardboard": 282,
+        "glass": 348,
+        "metal": 286,
+        "paper": 416,
+        "plastic": 336,
+        "trash": 96
+      }
+    },
+    "val": {
+      "total": 380,
+      "class_counts": {
+        "cardboard": 61,
+        "glass": 75,
+        "metal": 62,
+        "paper": 89,
+        "plastic": 72,
+        "trash": 21
+      }
+    },
+    "test": {
+      "total": 377,
+      "class_counts": {
+        "cardboard": 60,
+        "glass": 75,
+        "metal": 61,
+        "paper": 89,
+        "plastic": 72,
+        "trash": 20
+      }
+    }
+  }
+}

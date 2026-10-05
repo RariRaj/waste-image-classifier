@@ -1,0 +1,824 @@
+{
+  "method": "64-bit difference hash",
+  "max_distance": 4,
+  "images_checked": 2521,
+  "candidate_count": 136,
+  "candidates": [
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper110.jpg",
+      "distance": 0,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 0,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/metal/metal394.jpg",
+      "image_2": "data/raw/metal/metal76.jpg",
+      "distance": 0,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 0,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper147.jpg",
+      "image_2": "data/raw/paper/paper99.jpg",
+      "distance": 0,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper185.jpg",
+      "image_2": "data/raw/paper/paper390.jpg",
+      "distance": 0,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/cardboard/cardboard83.jpg",
+      "distance": 1,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper110.jpg",
+      "distance": 1,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 1,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 1,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 1,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 1,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 1,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper385.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 1,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper385.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 1,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 2,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 2,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard311.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 2,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper493.jpg",
+      "distance": 2,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper493.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper204.jpg",
+      "image_2": "data/raw/paper/paper477.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper277.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper305.jpg",
+      "image_2": "data/raw/paper/paper308.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper345.jpg",
+      "image_2": "data/raw/paper/paper451.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper385.jpg",
+      "image_2": "data/raw/paper/paper493.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper444.jpg",
+      "image_2": "data/raw/paper/paper54.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper459.jpg",
+      "image_2": "data/raw/paper/paper466.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper50.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper68.jpg",
+      "image_2": "data/raw/paper/paper74.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/plastic/plastic118.jpg",
+      "image_2": "data/raw/plastic/plastic137.jpg",
+      "distance": 2,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard2.jpg",
+      "image_2": "data/raw/paper/paper132.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper493.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard311.jpg",
+      "image_2": "data/raw/cardboard/cardboard83.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard311.jpg",
+      "image_2": "data/raw/paper/paper110.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard311.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard311.jpg",
+      "image_2": "data/raw/paper/paper552.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard341.jpg",
+      "image_2": "data/raw/paper/paper249.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard346.jpg",
+      "image_2": "data/raw/paper/paper475.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper239.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper277.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper383.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper498.jpg",
+      "distance": 3,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/glass/glass304.jpg",
+      "image_2": "data/raw/glass/glass404.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/metal/metal120.jpg",
+      "image_2": "data/raw/metal/metal50.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper239.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper277.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper383.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper498.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper116.jpg",
+      "image_2": "data/raw/paper/paper555.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper180.jpg",
+      "image_2": "data/raw/paper/paper284.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper204.jpg",
+      "image_2": "data/raw/paper/paper560.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper239.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper265.jpg",
+      "image_2": "data/raw/paper/paper408.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper277.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper383.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper385.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper385.jpg",
+      "image_2": "data/raw/paper/paper498.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper477.jpg",
+      "image_2": "data/raw/paper/paper560.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper493.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper493.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper522.jpg",
+      "image_2": "data/raw/paper/paper534.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper552.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/plastic/plastic180.jpg",
+      "image_2": "data/raw/plastic/plastic256.jpg",
+      "distance": 3,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard15.jpg",
+      "image_2": "data/raw/cardboard/cardboard361.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard2.jpg",
+      "image_2": "data/raw/cardboard/cardboard83.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard2.jpg",
+      "image_2": "data/raw/paper/paper110.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard2.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/cardboard/cardboard311.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/cardboard/cardboard75.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper239.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper277.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper383.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper497.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard221.jpg",
+      "image_2": "data/raw/paper/paper498.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard256.jpg",
+      "image_2": "data/raw/paper/paper347.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard311.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard311.jpg",
+      "image_2": "data/raw/paper/paper511.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard341.jpg",
+      "image_2": "data/raw/paper/paper350.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard346.jpg",
+      "image_2": "data/raw/cardboard/cardboard83.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard346.jpg",
+      "image_2": "data/raw/paper/paper110.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard346.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard346.jpg",
+      "image_2": "data/raw/paper/paper493.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard386.jpg",
+      "image_2": "data/raw/cardboard/cardboard72.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard58.jpg",
+      "image_2": "data/raw/paper/paper146.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/glass/glass183.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper143.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper317.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper361.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/cardboard/cardboard83.jpg",
+      "image_2": "data/raw/paper/paper552.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/glass/glass183.jpg",
+      "image_2": "data/raw/paper/paper110.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/glass/glass183.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/metal/metal141.jpg",
+      "image_2": "data/raw/metal/metal390.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper101.jpg",
+      "image_2": "data/raw/paper/paper108.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper143.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper317.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper361.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper110.jpg",
+      "image_2": "data/raw/paper/paper552.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper123.jpg",
+      "image_2": "data/raw/paper/paper547.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper136.jpg",
+      "image_2": "data/raw/paper/paper148.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper143.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper152.jpg",
+      "image_2": "data/raw/paper/paper392.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper204.jpg",
+      "image_2": "data/raw/paper/paper361.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper239.jpg",
+      "image_2": "data/raw/paper/paper277.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper239.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper239.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper239.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper246.jpg",
+      "image_2": "data/raw/paper/paper349.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper249.jpg",
+      "image_2": "data/raw/paper/paper419.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper255.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper277.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper277.jpg",
+      "image_2": "data/raw/paper/paper54.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper277.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper317.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper324.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper347.jpg",
+      "image_2": "data/raw/plastic/plastic420.jpg",
+      "distance": 4,
+      "same_category": false
+    },
+    {
+      "image_1": "data/raw/paper/paper361.jpg",
+      "image_2": "data/raw/paper/paper385.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper361.jpg",
+      "image_2": "data/raw/paper/paper477.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper361.jpg",
+      "image_2": "data/raw/paper/paper552.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper373.jpg",
+      "image_2": "data/raw/paper/paper444.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper373.jpg",
+      "image_2": "data/raw/paper/paper511.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper373.jpg",
+      "image_2": "data/raw/paper/paper54.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper383.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper383.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper385.jpg",
+      "image_2": "data/raw/paper/paper552.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper444.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper444.jpg",
+      "image_2": "data/raw/paper/paper511.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper444.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper498.jpg",
+      "image_2": "data/raw/paper/paper50.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper498.jpg",
+      "image_2": "data/raw/paper/paper582.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper540.jpg",
+      "image_2": "data/raw/paper/paper56.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/paper/paper552.jpg",
+      "image_2": "data/raw/paper/paper557.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/plastic/plastic256.jpg",
+      "image_2": "data/raw/plastic/plastic26.jpg",
+      "distance": 4,
+      "same_category": true
+    },
+    {
+      "image_1": "data/raw/trash/trash38.jpg",
+      "image_2": "data/raw/trash/trash48.jpg",
+      "distance": 4,
+      "same_category": true
+    }
+  ]
+}
