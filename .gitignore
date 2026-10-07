@@ -16,7 +16,10 @@ data/raw/*
 
 # Generated model binaries
 artifacts/*
+!artifacts/mobilenet_v2_finetuned.keras
 !artifacts/.gitkeep
 
 # Generated image review sheets
 reports/similarity_review/
+
+/paperwastetest1.jpg
