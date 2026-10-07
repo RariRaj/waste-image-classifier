@@ -1,0 +1,25 @@
+# Exclude everything by default.
+**
+
+# Include the build files and application requirements.
+!Dockerfile
+!.dockerignore
+!requirements-app.txt
+
+# Include application code and the upload page.
+!app/
+!app/**
+
+# Include only the selected model.
+!artifacts/
+!artifacts/mobilenet_v2_finetuned.keras
+
+# Include its matching metadata.
+!reports/
+!reports/mobilenet_v2_finetuned_metrics.json
+
+# Exclude caches and local secrets, including inside app/.
+**/__pycache__/
+**/*.pyc
+**/.env
+**/.env.*
