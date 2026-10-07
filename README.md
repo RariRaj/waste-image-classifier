@@ -1,3 +1,14 @@
+## Live demo
+
+- [Try the waste classifier](https://waste-image-classifier-yiy6.onrender.com/)
+- [Interactive API documentation](https://waste-image-classifier-yiy6.onrender.com/docs)
+
+Hosted on Render using Docker. The free service sleeps after
+inactivity, so the first request may take longer while it wakes up.
+
+Predictions can be incorrect, even when the model score is high.
+
+
 # Waste Image Classifier
 
 An end-to-end machine learning project that classifies waste images into six categories:
@@ -795,7 +806,6 @@ The application has been run locally. Containerization, public hosting, and prod
 ## Planned improvements
 
 - Add automated API and preprocessing checks.
-- Package the application with Docker.
 - Document model artifact retrieval for a fresh installation.
 - Build a separate real-world validation collection.
 - Investigate recurring mistakes across multiple examples.
