@@ -1,9 +1,12 @@
 """FastAPI application for waste image classification."""
 
+from pathlib import Path
+from fastapi.responses import FileResponse
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 
+INDEX_PATH = Path(__file__).resolve().parent / "static" / "index.html"
 from app.inference import (
     MAX_FILE_BYTES,
     InvalidImageError,
@@ -26,12 +29,9 @@ app = FastAPI(
 )
 
 
-@app.get("/")
+@app.get("/", response_class=FileResponse)
 def root():
-    return {
-        "message": "Waste Image Classifier API",
-        "docs": "/docs",
-    }
+    return FileResponse(INDEX_PATH, media_type="text/html")
 
 
 @app.get("/health")
