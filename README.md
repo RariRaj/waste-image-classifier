@@ -762,6 +762,23 @@ The application was manually checked for:
 
 These checks are not a claim of comprehensive automated test coverage.
 
+## Automated API tests
+
+Install development dependencies and run:
+
+```bat
+python -m pip install -r requirements-dev.txt
+python -m pytest tests/test_api.py -v
+```
+
+The 10 integration tests cover the homepage, model readiness,
+JPEG and PNG predictions, invalid content, empty uploads,
+oversized uploads, missing files, unsupported formats, and
+an unavailable model.
+
+Tests run locally using the saved model. They check API behavior,
+not classification accuracy, and do not contact the deployed service.
+
 ## Known limitations
 
 ### Limited dataset size
