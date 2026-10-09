@@ -779,6 +779,17 @@ an unavailable model.
 Tests run locally using the saved model. They check API behavior,
 not classification accuracy, and do not contact the deployed service.
 
+## Continuous integration and deployment
+
+GitHub Actions runs the 10 API integration tests on pushes to
+main and pull requests targeting main.
+
+Render is configured to deploy automatically after CI checks pass.
+A failed check prevents automatic deployment of that commit.
+
+The tests use the saved model and generated sample images.
+They check API behavior, not model accuracy or production load capacity.
+
 ## Known limitations
 
 ### Limited dataset size
